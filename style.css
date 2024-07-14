@@ -1,3 +1,6 @@
+body{
+	background-color: #EEE
+}
 #header {
 	background-color: #81cdc6;
 	font-family: calibri, Times new roman;
@@ -5,8 +8,15 @@
 	padding:10px;
 
 }
-#moomin {
-	float:left;
+
+#nav{
+	width: 180px;
+	float: left;
+	background-color: #81cdc6;
+	padding: 20px;
 }
-#didorelicta {
+#nav .selected {
+	font-weight: bold;
 }
+
+
