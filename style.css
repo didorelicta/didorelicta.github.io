@@ -14,6 +14,7 @@ h1,h2,h3 {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top:10px;
 }
 #header {
 	background-color: #81cdc6;
@@ -22,14 +23,20 @@ h1,h2,h3 {
 	padding:10px;
 	text-align: center;
 }
+#content {
+	margin-top:10px;
+	margin-bottom:10px;
+}
 
 #nav {
-	width: 80px;
+	width: 100px;
 	float: left;
 	background-color: #81cdc6;
 	padding:10px;
 	color:white;
 	font-family: calibri;
+	margin-right: 10px;
+	margin-bottom:10px;
 }
 #nav ul{
 	padding: 0;
@@ -44,13 +51,12 @@ h1,h2,h3 {
 }
 
 #main{
-	width:600px;
+	width:650px;
 	background-color: #81cdc6;
 	padding:10px;
 	color: white;
 	font-family: calibri;
-	margin: 10px;
-	margin-left: 10px;
+	float: right;
 }
 
 #footer{
@@ -59,5 +65,7 @@ h1,h2,h3 {
 	background-color:#81cdc6;
 	color:white;
 	text-align: left;
+	margin-top:10px;
+}
 	
 
